@@ -1,0 +1,9 @@
+<div>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+  
+    <h2>Questões:</h2>
+    <div *ngFor="let questao of questoes">
+      <app-questao [operador]="questao.operador"></app-questao>
+    </div>
+  </div>

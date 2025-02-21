@@ -1,0 +1,23 @@
+.questao-container {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 250px; /* Defina a largura fixa desejada */
+}
+
+.questao-container span,
+.questao-container input {
+  margin: 0 5px;
+  font-size: 1.2em;
+}
+
+.questao-container input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
